@@ -1,6 +1,7 @@
 # 2024 Fall Miniproject
 
-Exercise01:
+# Exercise01:
+
 
 Exercise02:
 # Mario Theme Player using PWM on Raspberry Pi Pico
