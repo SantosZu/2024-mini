@@ -57,7 +57,7 @@ To run this project, upload the Python script to your Raspberry Pi Pico WH using
 ```
 
 
-###Exercise03:
+# Exercise03:
 ## 1. Project Overview
 This project is designed to measure human response times to random LED flashes using a button connected to the Raspberry Pi Pico. The system captures the response time, calculates statistics (minimum, maximum, and average response time), and uploads the data to a Firebase Real-Time Database. It also logs the results locally in JSON format.
 ## 2. System Architecture
