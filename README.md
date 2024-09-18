@@ -45,7 +45,7 @@ import machine
 
 SPEAKER_PIN = 16
 speaker = machine.PWM(machine.Pin(SPEAKER_PIN))
-
+```
 Functions are explained in the code comments
 
 ## 6. Future Improvements
@@ -55,7 +55,7 @@ Allow control over the speed of the song.
 
 ## 7. Usage
 To run this project, upload the Python script to your Raspberry Pi Pico WH using Thonny IDE and ensure your speaker is properly connected to the designated pin (GP16).
-```
+
 
 
 # Exercise03:
