@@ -1,8 +1,22 @@
 # 2024 Fall Miniproject
 
 # Exercise01:
+Circuit Setup
+Components Required:
+Photocell (light sensor)
+10k ohm resistor
+Raspberry Pi Pico W
+Circuit Instructions:
+Connect one leg of the 10k ohm resistor to the "3V3" (3.3V) pin on the Pico.
+Connect the other leg of the 10k ohm resistor to ADC2 (GP28 on the Pico W).
+Connect one leg of the photocell to ADC2 (GP28).
+Connect the other leg of the photocell to AGND (Analog Ground).
 
+Code Explanation
+We will use the MicroPython machine.ADC class to read analog input from the photocell, and use the light levels to control the brightness of the onboard LED. The brightness is varied using Pulse Width Modulation (PWM), simulating how much time the LED stays on and off in each blink period.
 
+max_bright = ~3000
+min_bright = ~5000
 # Exercise02:
 Mario Theme Player using PWM on Raspberry Pi Pico
 
