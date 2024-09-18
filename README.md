@@ -3,8 +3,8 @@
 # Exercise01:
 
 
-Exercise02:
-# Mario Theme Player using PWM on Raspberry Pi Pico
+# Exercise02:
+Mario Theme Player using PWM on Raspberry Pi Pico
 
 ## 1. Project Overview
 This project uses the Raspberry Pi Pico WH to play the Mario theme song using a Pulse Width Modulation (PWM) signal on a connected speaker. The sound output is created by varying the frequency of the PWM signal, and a series of notes is defined in a list representing the Mario theme song.
