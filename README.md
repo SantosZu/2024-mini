@@ -54,7 +54,7 @@ Allow control over the speed of the song.
 
 ## 7. Usage
 To run this project, upload the Python script to your Raspberry Pi Pico WH using Thonny IDE and ensure your speaker is properly connected to the designated pin (GP16).
-
+```
 
 
 ###Exercise03:
